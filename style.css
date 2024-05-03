@@ -1,5 +1,5 @@
 body {
-  margin: 0px 0px;
+  margin: 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,11 +12,11 @@ body {
 
 #title {
   font-family: serif;
-  font-size: 40px;
-  color: black;
+  font-size: 60px;
+  color: white;
   text-align: center;
-  background-color: blue;
-  padding: 10px 20px; 
+  background-color: rgba(0, 0, 255, 0.5);
+  padding: 20px; 
 }
 
 #video {
