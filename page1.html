@@ -14,7 +14,7 @@
 		<body>
     <div class="container">
         <h2>Enter your favorite Taffy flavor!</h2>
-        <form action="https://formspree.io/f/xrgnvpqe" method="post">
+        <form id="feedback-form" action="https://formspree.io/f/xrgnvpqe" method="post">
             <div class="form-group">
                 <label for="name">Flavor:</label>
                 <input type="text" id="name" name="name" required>
@@ -26,6 +26,27 @@
             Your input may add more flavors to the list.
         </p>
     </div>
+	<script>
+        document.getElementById('feedback-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the default form submission
+            var form = event.target;
+
+            // Send the form data using fetch API
+            fetch(form.action, {
+                method: form.method,
+                body: new FormData(form)
+            }).then(function(response) {
+                if (response.ok) {
+                    form.reset(); // Clear the form fields
+                    alert('Thank you for your feedback!'); // Optionally alert the user
+                } else {
+                    alert('There was a problem submitting your feedback.');
+                }
+            }).catch(function(error) {
+                alert('There was a problem submitting your feedback.');
+            });
+        });
+    </script>
 </body>
         <div class="content">
             <div class="item">
@@ -115,9 +136,9 @@
         </div>
         <footer>
             <ul>
-                <li>Email: example@example.com</li>
-                <li>Phone: 123-456-7890</li>
-                <li>Address: 123 Main St, City, Country</li>
+                <li>Email: KevsCraftCreations@gmail.com</li>
+                <li>Phone: 208-595-7915</li>
+                <li>Address: Local Twin Falls ID</li>
             </ul>
         </footer>
     </div>
