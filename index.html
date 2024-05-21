@@ -1,18 +1,64 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Kev's Creations'</title>
-  <meta name="description" content="The Candy Store!">
-  <meta name="author" content="kevscreations">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kev's Creations</title>
+    <link rel="stylesheet" href="style.css">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-77KSP8L0V6"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
+	  gtag('config', 'G-77KSP8L0V6');
+	</script>
 </head>
-
 <body>
-  <div id="title">
-    Kev's Creations, more coming soon!
-  </div>
+    <div class="container">
+        <header>
+            <h1>Welcome to Kev's Creations!</h1>
+            <p class="semi-bold spaced-lines">Here we focus on two sides, Freeze Dried Candy and Handmade Soap. <br></p>
+			<p class="semi-bold spaced-lines"> Currently if you would like to order, it will have to be local to Twin Falls, ID. We can do set local deliveries just text/email for more info.</p>
+			<p class="semi-bold spaced-lines"> Select an option below to see more!</p>
+        </header>
+        <div class="content">
+		<div class="image-container">
+			<h2>Freeze Dried Candy</h2>
+			<a href="page1.html" title="Freeze Dried Candy"><img src="images/Skittles.jpg" alt="Candy"></a>
+		</div>
+		<div class="image-container middle">
+			<h2>Why not enjoy both?</h2>
+			<a title="Enjoy both"><img src="images/EnjoyBoth.jpg" alt="Both"></a>
+		</div>
+            <div class="image-container">
+		<h2>Handmade Soap</h2>
+            <a href="page2.html" title="Handmade Soap"><img src="images/Soap.jpg" alt="Soap"></a>
+			</div>
+        </div>
+		<!--
+		<div class="container">
+        <h1>Feedback Form</h1>
+        <form action="submit.php" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="content">Feedback:</label>
+                <textarea id="content" name="content" rows="4" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+	-->
+        <footer>
+            <ul>
+                <li>Text/Email for local orders or inquiries, deliveries for Twin Falls area available.</li>
+                <li>Email: kevscraftcreations@gmail.com</li>
+                <li>Phone: 208-595-7915</li>
+            </ul>
+        </footer>
+    </div>
 </body>
 </html>

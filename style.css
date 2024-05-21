@@ -1,29 +1,138 @@
 body {
-  margin: 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100vw;
-  background: url("./images/Skittles.jpg") center;
-  background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0045b3; /* Warm background color */
 }
 
-#title {
-  font-family: serif;
-  font-size: 60px;
-  color: white;
-  text-align: center;
-  background-color: rgba(0, 0, 255, 0.5);
-  padding: 20px; 
+.container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 40px;
+	gap : 50px;
+    background-color: #c4dbff; /* Set background color for the container */
+	text-align: center;
 }
 
-#video {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  height: 360px;
-  width: 640px;
-  background-color: white;
-  padding: 25px;
+.image-container.middle {
+    transform: translateY(40px);
+    max-width: 60%;
+}
+
+.image-container.middle img {
+    max-width: 60%; /* Slightly smaller image */
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+p.semi-bold {
+    text-align: center; /* Center the paragraph text */
+    margin-top: 10px; /* Space above the paragraph */
+    font-weight: 600; /* Make the text semi-bold */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border don't increase the width */
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#name {
+    width: 40%; /* Set width for the name input */
+    margin: 0 auto; /* Center the name input */
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container h2 {
+    font-weight: bold;
+}
+
+.image-container img {
+    width: 600px;
+	height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.content a img {
+    max-width: 70%; /* Set maximum width to 100% of parent container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.content a {
+    text-decoration: none;
+}
+
+.item {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.item img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-right: 10px; /* Space between image and description */
+}
+
+.item-info {
+    flex: 1; /* Take up remaining space */
+}
+
+footer {
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 5px;
 }
