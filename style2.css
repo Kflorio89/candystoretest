@@ -4,7 +4,12 @@ body {
     font-family: Arial, sans-serif;
     background-color: #0045b3;
 }
-
+.product { margin: 10px; }
+        .cart { margin: 10px; border: 1px solid #ccc; padding: 10px; }
+        .quantity-input {
+            width: 40px; /* Smaller width */
+            text-align: center;
+		}
 .container {
     width: 80%;
     margin: 0 auto;
