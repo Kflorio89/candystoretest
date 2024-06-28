@@ -42,8 +42,7 @@ body {
     max-width: 90%; /* Adjust to fit within the screen */
     margin: 0 auto; /* Center horizontally */
     padding: 10px;
-    transition: background-color 0.3s ease, border 0.3s ease;
-    cursor: pointer; /* Change cursor to pointer to indicate clickability */
+    transition: transform 0.3s ease;
 }
 
 #special-item img {
@@ -51,6 +50,10 @@ body {
     height: auto;
     max-width: 300px; /* Maximum width of the image */
     transition: transform 0.3s ease;
+}
+
+#special-item.enlarged {
+    transform: scale(2); /* Scale up the item */
 }
 
 .fullscreen {
