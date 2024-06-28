@@ -39,7 +39,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 120px; /* Adjust as needed */
+    width: 200px; /* Adjust as needed */
     margin: 0 auto; /* Center horizontally */
     padding: 10px;
     transition: transform 0.3s ease;
@@ -47,10 +47,6 @@ body {
 
 #special-item img {
     transition: transform 0.3s ease;
-}
-
-#special-item:hover {
-    transform: scale(1.1);
 }
 
 header {
