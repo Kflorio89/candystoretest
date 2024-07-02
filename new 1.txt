@@ -1,0 +1,10 @@
+New Piece
+
+goto user inputs
+get user inputs
+Update consts - modapp
+UpdateUserInputs - modapp
+reload_eyeshot
+goto runcycle
+
+
