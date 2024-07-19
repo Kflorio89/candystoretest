@@ -6,5 +6,15 @@ Update consts - modapp
 UpdateUserInputs - modapp
 reload_eyeshot
 goto runcycle
+MsgSend("app", _modName, "updateinfo", Act.Cmd, new object[] {{keys}, {values}, {fnames}});
 
 
+Ketchup:
+Tomato paste - 1 cup
+Onion Powder - 1tbsp
+Garlic powder - 1tbsp
+Salt - 1 tbsp
+vinegar - 3 tbsp 
+sweetener - 2 tbsp honey
+3/4 cup water
+simmer 5 minutes
