@@ -1,0 +1,75 @@
+/* Global settings */
+body {
+    background-color: #111; /* Dark background */
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.menu-title {
+    font-size: 3rem;
+    color: #39FF14; /* Neon green */
+    text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;
+    margin-bottom: 30px;
+}
+
+/* Category titles */
+.category-title {
+    font-size: 2rem;
+    color: #FF1493; /* Neon pink for category titles */
+    text-shadow: 0 0 10px #FF1493, 0 0 20px #FF1493;
+    margin: 50px 0 20px;
+    text-transform: uppercase;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid #39FF14; /* Neon green border */
+    padding: 10px;
+    font-size: 1.0rem;
+    text-transform: uppercase;
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;
+    word-wrap: break-word;  /* Ensures words break if too long */
+    overflow: hidden;       /* Hides any overflowed content */
+    text-align: center;     /* Center-align the text inside the boxes */
+    max-width: 100%;        /* Prevents the box from expanding too wide */
+    box-sizing: border-box; /* Ensures padding is included in width/height */
+}
+
+.menu-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #FF1493, 0 0 30px #FF1493; /* Neon pink hover effect */
+    border-color: #FF1493;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .menu-title {
+        font-size: 2.5rem;
+    }
+
+    .menu-item {
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+
+    .category-title {
+        font-size: 1.8rem;
+    }
+}
