@@ -1,0 +1,20 @@
+Orig:
+Taj Berry: S:4, M: 3, L: 2
+Caramel MMs: S:3, M:3, L:1
+Bitohoney: S:3, M:2, L:1
+LemonHeads: S:3, M:3, L:0
+Caramel Taffy: S:2, M:2
+
+Current:
+Taj Berry: S:2, M: 2, L: 1
+Caramel MMs: S:1, M:2, L:1
+Bitohoney: S:1, M:1, L:1
+LemonHeads: S:1, M:3, L:0
+Caramel Taffy: S:0, M:2
+
+Sold H1:
+Taj Berry: S:2, M: 1, L: 1
+Caramel MMs: S:2, M:1, L:0
+Bitohoney: S:2, M:1, L:0
+LemonHeads: S:2, M:0, L:0
+Caramel Taffy: S:2, M:0
